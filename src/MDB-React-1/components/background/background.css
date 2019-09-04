@@ -1,0 +1,10 @@
+body, html {
+    height: 100%;
+}
+.bg {
+    background-image: url("https://upload.wikimedia.org/wikipedia/commons/b/b6/Conmaicne_Rein_700AD.png");
+    height: 100vh;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+}
