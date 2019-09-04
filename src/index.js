@@ -7,8 +7,8 @@ import "bootstrap-css-only/css/bootstrap.min.css";
   // MDBootstrap projects
 import 'mdbreact/dist/css/mdb.css';
 
-import App from  './MDB-React/App';
-import './MDB-React/index.css';
+// import App from  './MDB-React/App';
+// import './MDB-React/index.css';
 
 import App from  './MDB-React-1/App';
 import './MDB-React-1/index.css';
