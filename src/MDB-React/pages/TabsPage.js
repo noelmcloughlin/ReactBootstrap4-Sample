@@ -5,7 +5,7 @@ import SectionContainer from "../components/sectionContainer";
 
 class TabsPage extends Component {
   state = {
-    activeItem: "LandingPageBS4"
+    activeItem: "1"
   };
 
   toggle = tab => e => {
@@ -28,8 +28,8 @@ class TabsPage extends Component {
                   <MDBNavItem>
                     <MDBNavLink
                       to="#"
-                      active={this.state.activeItem === "LandingPageBS4"}
-                      onClick={this.toggle("LandingPageBS4")}
+                      active={this.state.activeItem === "1"}
+                      onClick={this.toggle("1")}
                       role="tab"
                     >
                       Home

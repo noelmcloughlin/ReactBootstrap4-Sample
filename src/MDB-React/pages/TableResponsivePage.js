@@ -146,7 +146,7 @@ const TableResponsivePage = props => {
     ],
     rows: [
       {
-        id: "LandingPageBS4",
+        id: "1",
         name: "Kate",
         surname: "Moss",
         country: "USA",
@@ -258,7 +258,7 @@ const TableResponsivePage = props => {
     ],
     rows: [
       {
-        id: "LandingPageBS4",
+        id: "1",
         "lorem ipsum dolor": "Lorem ipsum dolor",
         "lorem ipsum": "Lorem ipsum dolor",
         lorem: "Lorem ipsum dolor"

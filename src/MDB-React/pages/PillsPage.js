@@ -5,7 +5,7 @@ import SectionContainer from "../components/sectionContainer";
 
 class PillsPage extends Component {
   state = {
-    activeItemPills: "LandingPageBS4"
+    activeItemPills: "1"
   };
 
   togglePills = tab => () => {
@@ -26,7 +26,7 @@ class PillsPage extends Component {
               <SectionContainer header="Basic example">
                 <MDBNav className="nav-pills">
                   <MDBNavItem>
-                    <MDBNavLink to="#" active={this.state.activeItemPills === "LandingPageBS4"} onClick={this.togglePills("LandingPageBS4")}>
+                    <MDBNavLink to="#" active={this.state.activeItemPills === "1"} onClick={this.togglePills("1")}>
                       Home
                     </MDBNavLink>
                   </MDBNavItem>

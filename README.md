@@ -1,18 +1,27 @@
-React Bootstrap 4 Samples
+React Bootstrap4 Samples
 - React Component Design
 - Material Design for Bootstrap
 
-- Projects
-  - [Landing Page Template With Bootstrap 4](https://webdesign.tutsplus.com/tutorials/how-to-build-a-landing-page-with-bootstrap-4--cms-32519)
+Choose Project
 
-Add node JS modules::
+* [Landing Page Template With Bootstrap 4](https://webdesign.tutsplus.com/tutorials/how-to-build-a-landing-page-with-bootstrap-4--cms-32519)
 
+    ```
+    $ rm package.json yarn.lock
+    $ ln -s LandingPage-BS4/package.json
     $ yarn
-
-Choose Project::
-
     $ vi index.js
+    ```
 
-Start Project::
+* [MDB Bootstrap Demo App](https://mdbootstrap.com/docs/react/getting-started/download/):
+
+    ```
+    $ rm package.json yarn.lock
+    $ ln -s MDB-React/package.json
+    $ yarn
+    $ vi index.js
+    ```
+
+Start Project:
 
     $ yarn start
